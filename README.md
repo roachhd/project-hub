@@ -1,5 +1,11 @@
 Project Hub
 ================
+This a ever so slightly more detailed project hub with a dark theme added by [KB](https://twitter.com/mektball)
+
+Read all about the original project below.
+
+
+
 
 Read more about [project hubs on 24 Ways.](http://24ways.org/2013/project-hubs/)
 
