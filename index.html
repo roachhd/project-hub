@@ -5,151 +5,8 @@
 	<title>[Project Name] Project Timeline</title>
 	<meta name="viewport" content="width=device-width" />	
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <style>
-      body {
-        padding: 0;
-        background: #222;
-        color: #fff;
-        font-family: "Helvetica Neue", Helvetica, sans-serif;
-        font-weight: 300;
-        font-size: 125%;
-        letter-spacing: .015em;
-      }
-
-      footer {
-        text-align: center;
-        font-size: .7em;
-        width: 500px;
-        margin: 50px auto;
-      }
-
-      header {
-        width: 500px;
-        margin: 20px auto;
-        background: #222;
-        font-weight: bold;
-        font-size: 72px;
-        text-align: left;
-        border-top: 4px solid #fff;
-        line-height: 68px;
-        position: relative;
-      }
-
-      header span {
-        position: absolute;
-        top: 7px;
-        height: 72px;
-        width: 72px;
-        border-radius: 50%;
-        line-height: 72px;
-        font-size: 60px;
-        text-align: center;
-        background: #f7df1e;
-        color: #222;
-      }
-
-      header .j {
-        right: 80px;
-      }
-
-      header .s {
-        right: 0;
-      }
-
-      article {
-        width: 500px;
-        margin: 20px auto;
-      }
-
-      article p {
-        border: 1px solid #fff;
-        margin: 60px 0;
-        font-weight: bold;
-        padding: 20px;
-        text-align: center;
-      }
-
-      ol {
-        list-style-type: none;
-        list-style-position: inside;
-        text-align: left;
-        margin: 0 auto;
-        padding: 0 0 0 90px;
-      }
-
-      time {
-        color: #999;
-        position: absolute;
-        font-size: 16px;
-        left: -125px;
-        top: 20px;
-        width: 100px;
-        text-align: right;
-      }
-
-      .stop {
-        position: relative;
-        padding-left: 30px;
-      }
-
-      .stop:before {
-        content: "";
-        width: 12px;
-        height: 12px;
-        position: absolute;
-        background-color: #222;
-        border: 3px solid #fff;
-        border-radius: 50%;
-        display: block;
-        left: -9px;
-        top: 22px;
-      }
-
-      .end.stop:before {
-        background-color: #fff;
-      }
-
-      .walk {
-        border-left: 8px dotted #666;
-        margin: -12px 0 -25px -4px;
-        padding: 30px 0 40px 26px;
-      }
-
-      .ride {
-        border-left: 8px solid #f7df1e;
-        margin: -17px 0 -25px -4px;
-        height: 60px;
-      }
-
-      .speaker {
-        position: relative;
-        padding-left: 30px;
-      }
-
-      .speaker:before {
-        content: "";
-        width: 8px;
-        height: 8px;
-        position: absolute;
-        background-color: #f7df1e;
-        display: block;
-        left: 2px;
-        top: 25px;
-      }
-
-      small {
-        font-size: 16px;
-        color: #999;
-        display: block;
-      }
-
-      a {
-        color: #ddd;
-        text-decoration: none;
-        border-bottom: 1px dotted;
-      }
-    </style>
-    <script>
+   	<link rel="stylesheet" type="text/css" href="css/dark.css" media="all" />
+<script>
       var then = new Date(2014,9,16)
 
       var days = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday'.split(' ')
@@ -200,25 +57,25 @@
 </head>
 <body>
 	<h1>[Project Name] Project Timeline</h1>
-	<ol class="timeline">
-		<li class="tl-node">
-			<div class="tl-stamp">August 14th, 2013</div>
-			<div class="tl-content">Kickoff Meeting</div>
+	<ol>
+		<li class="end stop">
+			<time>August 14th, 2013</time>
+			<small>Kickoff Meeting</small>
 			<a href="#">View notes</a>
 		</li>
-		<li class="tl-node">
-			<div class="tl-stamp">August 9th, 2013</div>
-			<div class="tl-content">Sign contract</div>
+		<li class="end stop">
+			<time>August 9th, 2013</time>
+			<small>Sign contract</small>
 			<a href="#">View contract</a>
 		</li>
-		<li class="tl-node">
-			<div class="tl-stamp">August 7th, 2013</div>
-			<div class="tl-content">Initial meeting</div>
+		<li class="end stop">
+			<time>August 7th, 2013</time>
+			<small>Initial meeting</small>
 			<a href="#">Meeting Notes</a>
 		</li>
-		<li class="tl-node">
-			<div class="tl-stamp">July 13th, 2013</div>
-			<div class="tl-content">Initial contact</div>
+		<li class="stop">
+			<time>July 13th, 2013</time>
+			<small>Initial contact</small>
 		</li>
 	</ol>
 </body>
