@@ -6,54 +6,6 @@
 	<meta name="viewport" content="width=device-width" />	
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    	<link rel="stylesheet" type="text/css" href="css/dark.css" media="all" />
-<script>
-      var then = new Date(2014,10,16)
-
-      var days = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday'.split(' ')
-      var months = 'January February March April May June July August September October November December'.split(' ')
-
-      function suffixed(number) {
-        if (number > 9 && number < 21)
-          return number + "th"
-        var lastDigit = number % 10
-        switch (lastDigit) {
-         case 1: return number + "st"
-         case 2: return number + "nd"
-         case 3: return number + "rd"
-        default: return number + "th"
-        }
-      }
-
-      function longEventDate() {
-        var weekday = days[then.getDay()]
-        var month = months[then.getMonth()]
-        var date = month + " " + suffixed(then.getDate())
-        document.write([weekday, date, "at 7pm"].join(", "))
-      }
-
-      function shortEventDate() {
-        document.write((then.getMonth()+1) + "/" + then.getDate())
-      }
-
-      function timeLeft() {
-        var now = new Date
-
-        var n = 0 | (then - now) / 86400000
-
-        document.write(
-          n >  1 ? n + " days" :
-          n == 1 ? "1 day"     :
-          n == 0 ? "A while"   : ""
-        )
-      }
-
-      function speakerTime() {
-        speakerTime.i = -~speakerTime.i
-
-        document.write("7:" + speakerTime.i + "0p")
-      }
-    </script>
-  
 </head>
 <body>
 <article>
@@ -62,31 +14,31 @@
 </header>
      <p>
         PROJECT PLAN <br><small>Est completion</small>
-        <script>longEventDate()</script><br><br>
+        October 29th, 2014<br><br>
         Everything is in the Hub.
       </p>
 	<ol>
 		<li class="end stop">
 			<small>Aug 14th 2014</small>
-			<small><div>Kickoff Meeting</div></small>
+			<small><p>Kickoff Meeting</div></p>
 			<small><a href="#">View notes</a></small>
 		</li>
         <li class="ride"></li>
        		<li class="end stop">
 			<small>Aug 09th 2014</small>
-			<small><div>Sign contract</div></small>
+			<small><p>Sign contract</div></p>
 			<small><a href="#">View contract</a></small>
 		</li>
         <li class="ride"></li>
        		<li class="end stop">
 			<small>Aug 07th 2014</small>
-			<small><div>Initial meeting</div></small>
+			<small><p>Initial meeting</p></small>
 			<small><a href="#">Meeting Notes</a></small>
 		</li>
         <li class="ride"></li>
        		<li class="stop">
 			<small>Jul 13th 2014</small>
-			<small><div>Initial contact</div></small>
+			<small><p>Initial contact</p></small>
                         <small><a href="#">See details</a></small>
 		</li>
 	</ol>
