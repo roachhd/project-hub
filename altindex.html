@@ -5,55 +5,7 @@
 	<title>[Project Name] Project Timeline</title>
 	<meta name="viewport" content="width=device-width" />	
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   	<link rel="stylesheet" type="text/css" href="css/dark.css" media="all" />
-<script>
-      var then = new Date(2014,10,16)
-
-      var days = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday'.split(' ')
-      var months = 'January February March April May June July August September October November December'.split(' ')
-
-      function suffixed(number) {
-        if (number > 9 && number < 21)
-          return number + "th"
-        var lastDigit = number % 10
-        switch (lastDigit) {
-         case 1: return number + "st"
-         case 2: return number + "nd"
-         case 3: return number + "rd"
-        default: return number + "th"
-        }
-      }
-
-      function longEventDate() {
-        var weekday = days[then.getDay()]
-        var month = months[then.getMonth()]
-        var date = month + " " + suffixed(then.getDate())
-        document.write([weekday, date, "at 7pm"].join(", "))
-      }
-
-      function shortEventDate() {
-        document.write((then.getMonth()+1) + "/" + then.getDate())
-      }
-
-      function timeLeft() {
-        var now = new Date
-
-        var n = 0 | (then - now) / 86400000
-
-        document.write(
-          n >  1 ? n + " days" :
-          n == 1 ? "1 day"     :
-          n == 0 ? "A while"   : ""
-        )
-      }
-
-      function speakerTime() {
-        speakerTime.i = -~speakerTime.i
-
-        document.write("7:" + speakerTime.i + "0p")
-      }
-    </script>
-  
+   	<link rel="stylesheet" type="text/css" href="css/dark.css" media="all" />  
 </head>
 <body>
 <article>
@@ -61,31 +13,32 @@
 	<h1>The Hub</h1>
 </header>
      <p>
-        PLANNED PROJECT TIMELINE <br>
-        <script>longEventDate()</script><br><br>
+        PROJECT TIMELINE <br>
+        <small>Estimated completion</small>
+        Oct 29th, 2014<br><br>
         Please see below for status of the project.
       </p>
 	<ol>
 		<li class="end stop">
-			<time>Aug 14th 2013</time>
+			<time><small>Aug 14th 2014</small></time>
 			<small>Kickoff Meeting</small>
 			<a href="#">View notes</a>
 		</li>
         <li class="ride"></li>
        		<li class="end stop">
-			<time>Aug 09th 2013</time>
+			<time><small>Aug 09th 2014</small></time>
 			<small>Sign contract</small>
 			<a href="#">View contract</a>
 		</li>
         <li class="ride"></li>
        		<li class="end stop">
-			<time>Aug 07th, 2013</time>
+			<time><small>Aug 07th, 2014</small></time>
 			<small>Initial meeting</small>
 			<a href="#">Meeting Notes</a>
 		</li>
         <li class="ride"></li>
        		<li class="stop">
-			<time>Jul 13th, 2013</time>
+			<time><small>Jul 13th, 2014</small></time>
 			<small>Initial contact</small>
                         <a href="#">See details</a>
 		</li>
@@ -93,8 +46,8 @@
 
     </article>
     <footer>
-      An awesome project Hub for you &amp; your clients.
- <br>Contact us anytime at <a href="mailto:hub@roachhd.com">hub@roachhd.com</a>.
+      An awesome <a href="http://roachhd.github.io/project-hub">Project Hub</a> for you &amp; your clients.
+ <br>Contact us anytime: <a href="mailto:hub@roachhd.com">hub@roachhd.com</a>.
     </footer>  
 </body>
 </ht
