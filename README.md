@@ -4,6 +4,8 @@ This a ever so slightly more detailed project hub with a dark theme added by [KB
 
 Here are some variations: 
 
+  [My Demo](http://roachhd.github.io/project-hub)
+
   [Alternate Demo](roachhd.github.io/project-hub/altindex.html)
 
   [CSS3 Demo](http://htmlpreview.github.io/?https://github.com/roachhd/project-hub/blob/gh-pages/cssHub.html)
