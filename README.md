@@ -2,7 +2,13 @@ Project Hub
 ================
 This a ever so slightly more detailed project hub with a dark theme added by [KB](https://twitter.com/mektball)
 
-[alt index](roachhd.github.io/project-hub/altindex.html)
+Here are some variations: 
+
+  [Alternate Demo](roachhd.github.io/project-hub/altindex.html)
+
+  [CSS3 Demo](http://htmlpreview.github.io/?https://github.com/roachhd/project-hub/blob/gh-pages/cssHub.html)
+
+---
 
 Read all about the original project below.
 
