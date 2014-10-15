@@ -6,7 +6,7 @@ Here are some variations:
 
   [My Demo](http://roachhd.github.io/project-hub)
 
-  [Alternate Demo](roachhd.github.io/project-hub/altindex.html)
+  [Alternate Demo](http://htmlpreview.github.io/?https://github.com/roachhd/project-hub/blob/gh-pages/altindex.html)
 
   [CSS3 Demo](http://htmlpreview.github.io/?https://github.com/roachhd/project-hub/blob/gh-pages/cssHub.html)
 
